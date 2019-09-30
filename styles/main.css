@@ -1,0 +1,189 @@
+/* style untuk Heading - BEGIN */
+body {
+    background-color: darkturquoise
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 65px;
+}
+h2 {
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+
+}
+/* style untuk Heading - END */ 
+
+/* style untuk Link - BEGIN */
+a:active {
+color: turquoise
+}
+a:hover {
+    color: beige
+}
+a:visited {
+    color: antiquewhite
+}
+/* style untuk Link - END */
+
+/* style berbentuk class - BEGIN */
+.header {
+    color: dodgerblue;
+}
+.logo {
+    text-align: center;
+}
+.jumbotron {
+    background-image: url('../images/cumil.jpg');
+    background-size: cover;
+    height: 810px;
+    /* background-color: lightgray */
+    border: solid 5px lightgray;
+    width: 90%;
+    margin: 10px auto;
+}
+.jumbotron h1 {
+    margin: 30px 40px;
+    font-size: 50px;
+    font-family: monospace;
+}
+.jumbotron h2 {
+    margin: 0px 20px;
+    font-size: 30px;
+    font-family: monospace;
+}
+.footer {
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gray;
+    margin: 10px auto;
+    padding: 10px 0px;
+    font-size: 25px;
+    text-align: center;
+    width: 90%;
+}
+.container {
+    margin: 0px auto;
+    overflow: hidden;
+    width: 90%;
+}
+.bg-con{
+    background-color: wheat;
+
+}
+/* style berbentuk class - END */
+
+/* menu header - BEGIN */
+.menu-header {
+    background-color: teal;
+    border-radius: 10px;
+    height: 30px;
+}
+.menu-header li {
+    display: inline-block;
+}
+.menu-header a {
+    font-family: monospace;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 41px 82px;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.menu-header a:hover {
+    color: black;
+}
+/* menu header - END */
+
+/* Card Home - BEGIN */
+.cardhome {
+    background-color: teal;
+    width: 49%;
+    height: 300px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba( 0, 0, 0, 0.4); /* this adds the "card" effect */
+    display: inline-block;
+    margin: 15px;
+    
+}
+.cardhead {
+    background-color: teal;
+    border-bottom: solid 3px wheat;
+    padding: 4px 0px;
+
+}
+.cardhead h3 {
+    text-align: center;
+    margin: 0px;
+    font-family: fantasy;
+    font-size: 25px;
+}
+.cardbody {
+    padding: 10px;
+    text-align: center;
+}
+.cardbody p {
+    font-family: fantasy;
+    font-size: 25px;
+}
+.cardflex {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.wajibun {
+ font-family: monospace;
+ font-size: 22px;
+ background-color: antiquewhite;
+ padding: 0px 10px;
+}
+/* Card Home - END */
+
+/* News - BEGIN */
+.news-item {
+    width: 49%;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+}
+.news-item h4 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.news-item h2 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+.news-item p {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.news-item a {
+    display: inline-block;
+    background-color: blanchedalmond;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/*News - END */
+.section {
+    background-color: lightgray;
+}
+.section h2 {
+    text-align: center;
+    font-family: monospace;
+    background-color: antiquewhite;
+    font-size: 30px;
+}
+.section h3 {
+    text-align: center;
+    font-family: monospace;
+}
