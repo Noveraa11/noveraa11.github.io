@@ -1,15 +1,16 @@
 /* style untuk Heading - BEGIN */
 body {
-    background-color: darkturquoise
+    background-color: darkturquoise;
 }
 h1 {
-    color: black;
+    color: darkcyan;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: serif;
     font-size: 65px;
 }
 h2 {
-    font-family: monospace;
+    font-family: serif;
+    color: cadetblue;
     font-size: 40px;
     text-align: center;
 
@@ -18,29 +19,31 @@ h2 {
 
 /* style untuk Link - BEGIN */
 a:active {
-color: turquoise
+color: darkcyan;
 }
 a:hover {
-    color: beige
+    color: cadetblue;
 }
 a:visited {
-    color: antiquewhite
+    color: antiquewhite;
 }
 /* style untuk Link - END */
 
 /* style berbentuk class - BEGIN */
 .header {
-    color: dodgerblue;
+    color: darkturquoise;
 }
 .logo {
     text-align: center;
+    font-family: monospace;
+    font-size: 20px;
 }
 .jumbotron {
     background-image: url('../images/cumil.jpg');
     background-size: cover;
     height: 810px;
     /* background-color: lightgray */
-    border: solid 5px lightgray;
+    border: solid 5px gray;
     width: 90%;
     margin: 10px auto;
 }
@@ -55,7 +58,7 @@ a:visited {
     font-family: monospace;
 }
 .footer {
-    color: beige;
+    color: antiquewhite;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: gray;
     margin: 10px auto;
@@ -71,7 +74,6 @@ a:visited {
 }
 .bg-con{
     background-color: wheat;
-
 }
 /* style berbentuk class - END */
 
@@ -99,20 +101,18 @@ a:visited {
 
 /* Card Home - BEGIN */
 .cardhome {
-    background-color: teal;
+    background-color: cadetblue;
     width: 49%;
     height: 300px;
     border-radius: 0px 0px 20px 20px;
     box-shadow: 0 4px 8px 0 rgba( 0, 0, 0, 0.4); /* this adds the "card" effect */
     display: inline-block;
     margin: 15px;
-    
 }
 .cardhead {
-    background-color: teal;
+    background-color: darkcyan;
     border-bottom: solid 3px wheat;
     padding: 4px 0px;
-
 }
 .cardhead h3 {
     text-align: center;
@@ -147,43 +147,52 @@ a:visited {
     display: inline-block;
     margin: 20px;
     padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 20px 20px 0px 0px;
 }
 .news-item h4 {
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-family: serif;
 
 }
 .news-item h2 {
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-family: serif;
     text-align: left;
+    color: teal;
 }
 .news-item p {
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: serif;
 }
 .news-item a {
     display: inline-block;
     background-color: blanchedalmond;
-    color: black;
+    color: teal;
     padding: 10px 10px;
     border-radius: 4px;
-    font-family: 'Times New Roman', Times, serif
+    font-family: serif;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 /*News - END */
 .section {
-    background-color: lightgray;
+    background-color: antiquewhite;
 }
 .section h2 {
     text-align: center;
-    font-family: monospace;
-    background-color: antiquewhite;
-    font-size: 30px;
+    font-family: serif;
+    color: teal;
+    font-size: 40px;
 }
 .section h3 {
     text-align: center;
     font-family: monospace;
+}
+
+.headnya {
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
 }
