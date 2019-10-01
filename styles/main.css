@@ -103,7 +103,7 @@ a:visited {
 .cardhome {
     background-color: cadetblue;
     width: 49%;
-    height: 300px;
+    height: 250px;
     border-radius: 0px 0px 20px 20px;
     box-shadow: 0 4px 8px 0 rgba( 0, 0, 0, 0.4); /* this adds the "card" effect */
     display: inline-block;
@@ -117,7 +117,7 @@ a:visited {
 .cardhead h3 {
     text-align: center;
     margin: 0px;
-    font-family: fantasy;
+    font-family: monospace;
     font-size: 25px;
 }
 .cardbody {
@@ -125,7 +125,7 @@ a:visited {
     text-align: center;
 }
 .cardbody p {
-    font-family: fantasy;
+    font-family: monospace;
     font-size: 25px;
 }
 .cardflex {
@@ -182,7 +182,7 @@ a:visited {
 }
 .section h2 {
     text-align: center;
-    font-family: serif;
+    font-family: monospace;
     color: teal;
     font-size: 40px;
 }
